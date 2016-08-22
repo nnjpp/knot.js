@@ -1,39 +1,37 @@
 {
-  "name":        "knot.js",
-  "version":     "1.1.1",
+  "name": "knot.js",
+  "version": "1.1.1",
   "description": "A browser-based event emitter, for tying things together.",
-  "homepage":    "https://github.com/callmecavs/knot.js",
-  "main":        "dist/knot.min.js",
+  "homepage": "https://github.com/callmecavs/knot.js",
+  "main": "dist/knot.min.js",
   "jsnext:main": "src/knot.js",
-
-  "author":  "Michael Cavalea",
+  "author": "Michael Cavalea",
   "license": "MIT",
-
   "repository": {
     "type": "git",
-    "url":  "https://github.com/callmecavs/knot.js"
+    "url": "https://github.com/callmecavs/knot.js"
   },
   "bugs": {
     "url": "https://github.com/callmecavs/knot.js/issues"
   },
-
   "keywords": [
     "browser",
     "event",
     "emitter"
   ],
-
   "devDependencies": {
-    "babel-preset-es2015-rollup":                "*",
+    "babel-plugin-external-helpers": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "*",
-    "browser-sync":                              "*",
-    "del":                                       "*",
-    "gulp":                                      "*",
-    "node-notifier":                             "*",
-    "rollup":                                    "*",
-    "rollup-plugin-babel":                       "*",
-    "rollup-plugin-commonjs":                    "*",
-    "rollup-plugin-node-resolve":                "*",
-    "rollup-plugin-uglify":                      "*"
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015-rollup": "*",
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    "node-notifier": "*",
+    "rollup": "*",
+    "rollup-plugin-babel": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-node-resolve": "*",
+    "rollup-plugin-uglify": "*"
   }
 }
